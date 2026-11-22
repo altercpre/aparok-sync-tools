@@ -1,6 +1,6 @@
 .PHONY: build deps
 SHELL=/bin/bash
-export GOPRIVATE=github.com/anyproto
+export GOPRIVATE=github.com/altercpre
 export PATH:=deps:$(PATH)
 export CGO_ENABLED:=1
 BUILD_GOOS:=$(shell go env GOOS)

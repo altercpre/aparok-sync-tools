@@ -199,8 +199,8 @@ Name: My Document • Layout: 1
 
 The tool uses:
 
-- `github.com/anyproto/any-store` for database operations
-- `github.com/anyproto/any-sync/commonspace` for space storage and head storage
+- `github.com/altercpre/aparok-store` for database operations
+- `github.com/altercpre/aparok-sync/commonspace` for space storage and head storage
 - `github.com/spf13/cobra` for CLI framework
 - `github.com/charmbracelet/bubbletea` for the interactive TUI framework
 - `github.com/charmbracelet/bubbles/table` for the interactive table component

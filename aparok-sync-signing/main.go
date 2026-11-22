@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"github.com/mr-tron/base58"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"

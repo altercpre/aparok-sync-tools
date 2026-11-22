@@ -3,19 +3,19 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/net/connutil"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/net/secureservice/handshake/handshakeproto"
-	"github.com/anyproto/any-sync/net/transport"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/net/transport/yamux"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/testutil/accounttest"
-	"github.com/anyproto/go-chash"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/net/connutil"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake/handshakeproto"
+	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/net/transport/yamux"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/testutil/accounttest"
+	"github.com/altercpre/go-chash"
 	yamux2 "github.com/hashicorp/yamux"
 	"github.com/matishsiao/goInfo"
 	"go.uber.org/zap"
@@ -48,8 +48,8 @@ yamux://prod-any-sync-coordinator1.anyclub.org:443,
 yamux://prod-any-sync-coordinator1.anyclub.org:1443,
 yamux://prod-any-sync-coordinator1.toolpad.org:443,
 yamux://prod-any-sync-coordinator1.toolpad.org:1443,
-yamux://prod-any-sync-coordinator1.anytype.io:443,
-yamux://prod-any-sync-coordinator1.anytype.io:1443,
+yamux://prod-any-sync-coordinator1.altercpre.w8n.pw:443,
+yamux://prod-any-sync-coordinator1.altercpre.w8n.pw:1443,
 quic://prod-any-sync-coordinator1.anyclub.org:5430
 `
 

@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"github.com/spf13/cobra"
 	"gopkg.in/mgo.v2/bson"
 	"gopkg.in/yaml.v3"

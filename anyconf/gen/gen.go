@@ -1,9 +1,9 @@
 package gen
 
 import (
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"golang.org/x/exp/slices"
 )
 

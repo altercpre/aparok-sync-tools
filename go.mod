@@ -1,12 +1,12 @@
-module github.com/anyproto/any-sync-tools
+module github.com/altercpre/aparok-sync-tools
 
 go 1.25.7
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
-	github.com/anyproto/any-store v0.4.6
-	github.com/anyproto/any-sync v0.12.6
-	github.com/anyproto/go-chash v0.1.0
+	github.com/altercpre/aparok-store v0.4.6
+	github.com/altercpre/aparok-sync v0.12.6
+	github.com/altercpre/go-chash v0.1.0
 	github.com/charmbracelet/bubbles v0.21.0
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
@@ -24,11 +24,11 @@ require (
 
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
-	github.com/anyproto/go-bip39 v1.0.0 // indirect
-	github.com/anyproto/go-slip10 v1.0.1 // indirect
-	github.com/anyproto/go-slip21 v1.0.0 // indirect
-	github.com/anyproto/go-sqlite v1.4.2-any // indirect
-	github.com/anyproto/lexid v0.0.6 // indirect
+	github.com/altercpre/go-bip39 v1.0.0 // indirect
+	github.com/altercpre/go-slip10 v1.0.1 // indirect
+	github.com/altercpre/go-slip21 v1.0.0 // indirect
+	github.com/altercpre/go-sqlite v1.4.2-any // indirect
+	github.com/altercpre/lexid v0.0.6 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd v0.22.1 // indirect

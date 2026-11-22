@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/anyproto/any-sync-tools/anyconf/gen"
-	"github.com/anyproto/any-sync/nodeconf"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync-tools/anyconf/gen"
+	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
 	"gopkg.in/mgo.v2/bson"

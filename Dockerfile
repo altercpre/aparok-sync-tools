@@ -30,7 +30,7 @@ FROM alpine:3.22.1
 # OCI labels
 LABEL org.opencontainers.image.title="any-sync-tools" \
       org.opencontainers.image.description="Configuration tools for Any-Sync network" \
-      org.opencontainers.image.source="https://github.com/anyproto/any-sync-tools" \
+      org.opencontainers.image.source="https://github.com/altercpre/aparok-sync-tools" \
       org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/anyproto/any-sync-tools/anyconf/cmd"
+	"github.com/altercpre/aparok-sync-tools/anyconf/cmd"
 )
 
 func main() {

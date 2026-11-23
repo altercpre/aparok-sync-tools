@@ -1,19 +1,19 @@
-# Any-Sync Tools
+# Aparok Sync Tools
 
 ## `aparok-sync-network`
 
-Configuration builder for Any-Sync nodes. 
+Configuration builder for Aparok Sync nodes. 
 See the tool [`README`](aparok-sync-network/README.md) for more details.
 
 ## `aparok-sync-netcheck`
 
-Network issues debugger for Any-Sync networks.
+Network issues debugger for Aparok Sync networks.
 See the tool [`README`](aparok-sync-netcheck/README.md) for more details.
 
 
 ## `aparok-sync-acl-cli`
 
-ACL (Access Control List) inspector for Any-Sync spaces.
+ACL (Access Control List) inspector for Aparok Sync spaces.
 Connects to a coordinator node and prints the ACL log and state summary for a given space.
 
 **Usage:**
